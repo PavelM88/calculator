@@ -3,6 +3,10 @@ package ru.mamaev.calculator;
 import java.util.Scanner;
 
 public class ParserNumberAndCalculator {
+    /** метод считывает с консоли введеные значения и в зависимости от введенных значений
+     * производит арифметические вычесления
+     * @throws IncorrectFormatException исключение
+     */
     public void parserStringLine() throws IncorrectFormatException {
         int num1;
         int num2;

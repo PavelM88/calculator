@@ -9,6 +9,12 @@ public class RomanNumber {
         }
     }
 
+    /**
+     * Метод конвертирует римские цифры в арабские
+     *
+     * @param romanNumerals считанная с консоли римская цифра
+     * @return арбаская цифра
+     */
     public static int romanNumeralsToInt(String romanNumerals) {
         romanNumerals = romanNumerals.toUpperCase();
         int number = 0;
@@ -43,6 +49,11 @@ public class RomanNumber {
         return number;
     }
 
+    /**
+     * метод конвертирует арабские цифры в римские
+     * @param num вход арабской цифры
+     * @return римская цифра
+     */
     public static String intToRomanNumeric(int num) {
         StringBuilder romanNumber = new StringBuilder();
         if (num == 0) {
